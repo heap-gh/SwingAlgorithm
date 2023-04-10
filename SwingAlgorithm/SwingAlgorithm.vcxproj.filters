@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Datatypes">
+      <UniqueIdentifier>{7a870b37-def3-45a3-a47d-8521c021ee4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stock">
+      <UniqueIdentifier>{275c196e-706e-49bc-9403-bae4bfc5e68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\stock">
+      <UniqueIdentifier>{d3e4b73f-ff3b-4a3f-a73e-570c05b704db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="swingtrade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aggregate.h">
+      <Filter>Header Files\Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="dailydata.h">
+      <Filter>Header Files\Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="stock.h">
+      <Filter>Header Files\stock</Filter>
+    </ClInclude>
+    <ClInclude Include="previousday.h">
+      <Filter>Header Files\Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="realtimedata.h">
+      <Filter>Header Files\Datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlconnection.h">
+      <Filter>Header Files\Datatypes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swingtrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files\stock</Filter>
+    </ClCompile>
+    <ClCompile Include="stock.cpp">
+      <Filter>Source Files\stock</Filter>
+    </ClCompile>
+    <ClCompile Include="stream.cpp">
+      <Filter>Source Files\stock</Filter>
+    </ClCompile>
+    <ClCompile Include="indicators.cpp">
+      <Filter>Source Files\stock</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
